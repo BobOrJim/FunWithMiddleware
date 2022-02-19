@@ -1,0 +1,52 @@
+
+ 
+
+
+2022-02-13 01:56:32.979 +01:00 [INF] IN(10023):  LEFT= app.UseSwagger(); RIGHT = app.UseSwaggerUI(); HTTP-request = GET /index.html HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:56:32.979 +01:00 [INF] IN(10023):  LEFT= app.UseSwaggerUI(); RIGHT = app.UseHttpsRedirection(); HTTP-request = GET /index.html HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:56:32.979 +01:00 [INF] IN(10023):  LEFT= app.UseHttpsRedirection(); RIGHT = app.UseStaticFiles(); HTTP-request = GET /index.html HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:56:33.000 +01:00 [INF] OUT(10045): LEFT= app.UseHttpsRedirection(); RIGHT = app.UseStaticFiles(); HTTP-response = 200  138 text/html 
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>SUP</h1>
+</body>
+</html> 
+
+
+2022-02-13 01:56:33.001 +01:00 [INF] OUT(10045): LEFT= app.UseSwaggerUI(); RIGHT = app.UseHttpsRedirection(); HTTP-response = 200  138 text/html 
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>SUP</h1>
+</body>
+</html> 
+
+
+2022-02-13 01:56:33.001 +01:00 [INF] OUT(10046): LEFT= app.UseSwagger(); RIGHT = app.UseSwaggerUI(); HTTP-response = 200  138 text/html 
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>SUP</h1>
+</body>
+</html> 
+
+

@@ -1,0 +1,44 @@
+
+
+2022-02-13 01:49:52.167 +01:00 [INF] IN(7047):  LEFT= app.UseSwagger(); RIGHT = app.UseSwaggerUI(); HTTP-request = GET /WeatherForecast HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:49:52.167 +01:00 [INF] IN(7047):  LEFT= app.UseSwaggerUI(); RIGHT = app.UseHttpsRedirection(); HTTP-request = GET /WeatherForecast HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:49:52.167 +01:00 [INF] IN(7048):  LEFT= app.UseHttpsRedirection(); RIGHT = app.UseStaticFiles(); HTTP-request = GET /WeatherForecast HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:49:52.167 +01:00 [INF] IN(7048):  LEFT= app.UseStaticFiles(); RIGHT = app.UseAuthorization(); HTTP-request = GET /WeatherForecast HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:49:52.169 +01:00 [INF] IN(7049):  LEFT= app.UseAuthorization(); RIGHT = app.MapControllers(); HTTP-request = GET /WeatherForecast HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:49:52.169 +01:00 [INF] IN(7050):  LEFT= app.MapControllers(); RIGHT = app.Run(); HTTP-request = GET /WeatherForecast HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:49:52.189 +01:00 [INF] OUT(7070): LEFT= app.MapControllers(); RIGHT = app.Run(); HTTP-response = 200   application/json; charset=utf-8 
+ [{"date":"2022-02-14T01:49:52.1812484+01:00","temperatureC":19,"temperatureF":66,"summary":"Chilly"},{"date":"2022-02-15T01:49:52.1817622+01:00","temperatureC":-3,"temperatureF":27,"summary":"Sweltering"},{"date":"2022-02-16T01:49:52.1817699+01:00","temperatureC":-5,"temperatureF":24,"summary":"Scorching"},{"date":"2022-02-17T01:49:52.1817707+01:00","temperatureC":22,"temperatureF":71,"summary":"Chilly"},{"date":"2022-02-18T01:49:52.1817711+01:00","temperatureC":41,"temperatureF":105,"summary":"Balmy"}] 
+
+
+2022-02-13 01:49:52.189 +01:00 [INF] OUT(7070): LEFT= app.UseAuthorization(); RIGHT = app.MapControllers(); HTTP-response = 200   application/json; charset=utf-8 
+ [{"date":"2022-02-14T01:49:52.1812484+01:00","temperatureC":19,"temperatureF":66,"summary":"Chilly"},{"date":"2022-02-15T01:49:52.1817622+01:00","temperatureC":-3,"temperatureF":27,"summary":"Sweltering"},{"date":"2022-02-16T01:49:52.1817699+01:00","temperatureC":-5,"temperatureF":24,"summary":"Scorching"},{"date":"2022-02-17T01:49:52.1817707+01:00","temperatureC":22,"temperatureF":71,"summary":"Chilly"},{"date":"2022-02-18T01:49:52.1817711+01:00","temperatureC":41,"temperatureF":105,"summary":"Balmy"}] 
+
+
+2022-02-13 01:49:52.189 +01:00 [INF] OUT(7070): LEFT= app.UseStaticFiles(); RIGHT = app.UseAuthorization(); HTTP-response = 200   application/json; charset=utf-8 
+ [{"date":"2022-02-14T01:49:52.1812484+01:00","temperatureC":19,"temperatureF":66,"summary":"Chilly"},{"date":"2022-02-15T01:49:52.1817622+01:00","temperatureC":-3,"temperatureF":27,"summary":"Sweltering"},{"date":"2022-02-16T01:49:52.1817699+01:00","temperatureC":-5,"temperatureF":24,"summary":"Scorching"},{"date":"2022-02-17T01:49:52.1817707+01:00","temperatureC":22,"temperatureF":71,"summary":"Chilly"},{"date":"2022-02-18T01:49:52.1817711+01:00","temperatureC":41,"temperatureF":105,"summary":"Balmy"}] 
+
+
+2022-02-13 01:49:52.189 +01:00 [INF] OUT(7070): LEFT= app.UseHttpsRedirection(); RIGHT = app.UseStaticFiles(); HTTP-response = 200   application/json; charset=utf-8 
+ [{"date":"2022-02-14T01:49:52.1812484+01:00","temperatureC":19,"temperatureF":66,"summary":"Chilly"},{"date":"2022-02-15T01:49:52.1817622+01:00","temperatureC":-3,"temperatureF":27,"summary":"Sweltering"},{"date":"2022-02-16T01:49:52.1817699+01:00","temperatureC":-5,"temperatureF":24,"summary":"Scorching"},{"date":"2022-02-17T01:49:52.1817707+01:00","temperatureC":22,"temperatureF":71,"summary":"Chilly"},{"date":"2022-02-18T01:49:52.1817711+01:00","temperatureC":41,"temperatureF":105,"summary":"Balmy"}] 
+
+
+2022-02-13 01:49:52.189 +01:00 [INF] OUT(7070): LEFT= app.UseSwaggerUI(); RIGHT = app.UseHttpsRedirection(); HTTP-response = 200   application/json; charset=utf-8 
+ [{"date":"2022-02-14T01:49:52.1812484+01:00","temperatureC":19,"temperatureF":66,"summary":"Chilly"},{"date":"2022-02-15T01:49:52.1817622+01:00","temperatureC":-3,"temperatureF":27,"summary":"Sweltering"},{"date":"2022-02-16T01:49:52.1817699+01:00","temperatureC":-5,"temperatureF":24,"summary":"Scorching"},{"date":"2022-02-17T01:49:52.1817707+01:00","temperatureC":22,"temperatureF":71,"summary":"Chilly"},{"date":"2022-02-18T01:49:52.1817711+01:00","temperatureC":41,"temperatureF":105,"summary":"Balmy"}] 
+
+
+2022-02-13 01:49:52.190 +01:00 [INF] OUT(7070): LEFT= app.UseSwagger(); RIGHT = app.UseSwaggerUI(); HTTP-response = 200   application/json; charset=utf-8 
+ [{"date":"2022-02-14T01:49:52.1812484+01:00","temperatureC":19,"temperatureF":66,"summary":"Chilly"},{"date":"2022-02-15T01:49:52.1817622+01:00","temperatureC":-3,"temperatureF":27,"summary":"Sweltering"},{"date":"2022-02-16T01:49:52.1817699+01:00","temperatureC":-5,"temperatureF":24,"summary":"Scorching"},{"date":"2022-02-17T01:49:52.1817707+01:00","temperatureC":22,"temperatureF":71,"summary":"Chilly"},{"date":"2022-02-18T01:49:52.1817711+01:00","temperatureC":41,"temperatureF":105,"summary":"Balmy"}] 
+
+

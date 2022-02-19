@@ -1,0 +1,32 @@
+
+ 
+
+
+2022-02-13 01:53:46.198 +01:00 [INF] IN(8782):  LEFT= app.UseSwagger(); RIGHT = app.UseSwaggerUI(); HTTP-request = GET /Auth HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:53:46.199 +01:00 [INF] IN(8783):  LEFT= app.UseSwaggerUI(); RIGHT = app.UseHttpsRedirection(); HTTP-request = GET /Auth HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:53:46.199 +01:00 [INF] IN(8783):  LEFT= app.UseHttpsRedirection(); RIGHT = app.UseStaticFiles(); HTTP-request = GET /Auth HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:53:46.199 +01:00 [INF] IN(8783):  LEFT= app.UseStaticFiles(); RIGHT = app.UseAuthorization(); HTTP-request = GET /Auth HTTP/2 
+ localhost:7172 
+ 
+2022-02-13 01:53:46.506 +01:00 [INF] OUT(9090): LEFT= app.UseStaticFiles(); RIGHT = app.UseAuthorization(); HTTP-response = 401    
+  
+
+
+2022-02-13 01:53:46.506 +01:00 [INF] OUT(9090): LEFT= app.UseHttpsRedirection(); RIGHT = app.UseStaticFiles(); HTTP-response = 401    
+  
+
+
+2022-02-13 01:53:46.506 +01:00 [INF] OUT(9090): LEFT= app.UseSwaggerUI(); RIGHT = app.UseHttpsRedirection(); HTTP-response = 401    
+  
+
+
+2022-02-13 01:53:46.506 +01:00 [INF] OUT(9090): LEFT= app.UseSwagger(); RIGHT = app.UseSwaggerUI(); HTTP-response = 401    
+  
+
+
